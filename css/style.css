@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
@@ -22,6 +22,13 @@ nav {
 .navigation li {
   display: inline-block;
   margin-right: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 }
 
 .navigation li a {
@@ -46,4 +53,23 @@ nav {
   font-size: 16px;
   font-weight: 500;
   color: black;
+}
+
+/* ______________Hero Section________________ */
+
+.hero {
+  background-image: url(../image/Asoma_hero_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 195px;
+}
+
+.hero-title {
+  font-size: 49px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
 }
